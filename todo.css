@@ -1,0 +1,177 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+  html {
+    box-sizing: border-box;
+	font-family: 'open sans', sans-serif;
+}
+
+body {
+    background-color: cornsilk;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    }
+
+
+.Todo {
+    background-color: rgb(130, 243, 181,0.5);
+    border-radius: 10px;
+	padding: 15px 35px;
+	width: 100%;
+    max-width: 960px;
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	text-transform: uppercase;
+    line-height: 50px;
+}
+
+h1{
+    font-size: 4em;
+    padding-top: 15px;
+    font-family: cursive;
+    font-style: italic;
+    font-weight: 300;
+    color:rgb(5, 8, 6);
+}
+
+ul{
+    margin-top: 50px;
+}
+
+.list {
+    background-color: rgba(115, 238, 170, 0.5);
+    border: 2px solid rgb(5, 8, 6, 0.5);
+    border-radius: 40px;
+    min-height: 20px;
+    width: 80% ;
+    margin: 10px 0;
+    padding: 0 10px;
+    color: #720303;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list p {
+    display: inline-block;
+}
+
+.complete {
+    text-decoration: line-through;
+}
+
+input#types, input#types:focus {
+    background-color: rgba(195, 236, 214, 0.5);
+    border: 2px solid rgb(5, 8, 6, 0.5);
+    border-radius: 40px;
+    min-height: 40px;
+    display: block;
+    width: 80% ;
+    margin: 10px 0;
+    padding: 0 10px;
+    color: #693434;
+    font-weight: 600;
+    outline: none;
+    font-size: 1rem;
+    padding: 0 15px;
+}
+
+.edit_button {
+    text-align:right;
+    background-color:rgba(58, 156, 106, 0.5);
+    border: 2px solid rgb(5, 8, 6, 0.5);
+    border-radius: 5px;
+    height: max-content;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.edit_button:first-of-type {
+    margin-right: 10px;
+}
+
+.edit_button:hover {
+    background-color: rgba(88, 209, 163, 0.5);
+}
+.edit_button:focus {
+    background-color:rgb(5, 8, 6) ;
+    color: cornsilk;
+}
+
+.theend {
+    margin:10px 0 25px;
+    padding: 10px 20px;
+    border-radius: 500px;
+    border: 2px solid rgba(54, 124, 87,0.5);
+    background-color:rgb(5, 8, 6);
+    font-size: 20px;
+    color: cornsilk;
+    cursor: pointer;
+}
+
+.theend:hover {
+    background-color: cornsilk;
+    color: rgb(5, 8, 6);
+}
+
+.theend:focus {
+    background-color:rgba(88, 209, 163, 0.5);
+    color: rgb(5, 8, 6);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    
